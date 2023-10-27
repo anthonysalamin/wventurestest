@@ -336,8 +336,8 @@ html, body, root {
 }
 </style>
 
-<div class="dot" style="background-color:{{ statusOfPortfolio.data.f_color }}"> <!-- {{Status: Color -->
-	<div class="dot-pulse" style="background-color:{{ statusOfPortfolio.data.f_color }};"></div> <!-- [[Status: Color]] -->
+<div class="dot" style="background-color:{{ statusOfPortfolio.data.f_color }}">
+	<div class="dot-pulse" style="background-color:{{ statusOfPortfolio.data.f_color }}"></div>
 </div></div>
                                     {%- if item.data.f_exited == true -%}<div class="location-text">{{ texts.7c8ae25d }}</div>{%- endif -%}
                                     {%- unless item.data.f_exited == true -%}<div class="location-text">{{ texts.74946b26 }}</div>{%- endunless -%}
